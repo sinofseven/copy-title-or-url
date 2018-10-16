@@ -1,0 +1,42 @@
+div.buttons {
+  text-align: center;
+}
+
+div.buttons h4 {
+  margin-top: 0rem;
+  margin-bottom: 0.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+div.buttons h4[data-type=title] {
+  background-color: lightgreen;
+}
+
+div.buttons h4[data-type=url] {
+  background-color: lightblue;
+}
+
+div.buttons h4[data-type=anchor] {
+  background-color: orange;
+}
+
+div.buttons h4[data-type=markdown] {
+  background-color: lightcoral;
+}
+
+div.icon {
+  margin-top: 0.2rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  color: gray;
+  text-align: center;
+}
+
+div.icon p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+}

@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Copy Title or Url",
+  "version": "1.1",
+  "description": "For copying title or url.",
+  "icons": {
+    "64": "icon.png"
+  },
+  "permissions": [
+    "clipboardWrite",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Copy Title or Url",
+    "default_popup": "index.html"
+  }
+}
