@@ -7,6 +7,8 @@ div.buttons h4 {
   margin-bottom: 0.2rem;
   cursor: pointer;
   border-radius: 5px;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
 }
 
 div.buttons h4[data-type=title] {
@@ -23,6 +25,10 @@ div.buttons h4[data-type=anchor] {
 
 div.buttons h4[data-type=markdown] {
   background-color: lightcoral;
+}
+
+div.buttons h4[data-type="hatena-blog-card"] {
+  background-color: olivedrab;
 }
 
 div.icon {

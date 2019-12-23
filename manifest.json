@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Copy Title or Url",
-  "version": "1.1",
+  "version": "1.2",
   "description": "For copying title or url.",
   "icons": {
     "64": "icon.png"
