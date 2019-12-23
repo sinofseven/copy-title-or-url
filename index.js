@@ -39,7 +39,7 @@ function createHatenaBlogCardLink(url, title) {
     style += `${key}: ${value};`;
   }
   const encodedUrl = encodeURIComponent(url);
-  return `<iframe class="hatenablogcard" style="${style}" title=${JSON.stringify(title)} src="https://hatenablog-parts.com/embed?${encodedUrl}"></iframe>`
+  return `<iframe class="hatenablogcard" style="${style}" title=${JSON.stringify(title)} src="https://hatenablog-parts.com/embed?url=${encodedUrl}"></iframe>`
 }
 
 function copy(event) {
