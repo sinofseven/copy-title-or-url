@@ -16,6 +16,8 @@ function generate(type, title, url) {
       return `<a href="${url}">${title}</a>`;
     case 'markdown':
       return `[${title}](${url})`;
+    case 'scrapbox':
+      return `[${title} ${url}]`;
     case 'hatena-blog-card':
       return createHatenaBlogCardLink(url, title);
   }
