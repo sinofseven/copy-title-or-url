@@ -27,6 +27,10 @@ div.buttons h4[data-type=markdown] {
   background-color: lightcoral;
 }
 
+div.buttons h4[data-type=scrapbox] {
+  background-color: aquamarine;
+}
+
 div.buttons h4[data-type="hatena-blog-card"] {
   background-color: olivedrab;
 }
