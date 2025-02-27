@@ -3,12 +3,12 @@ div.buttons {
 }
 
 div.buttons h4 {
-  margin-top: 0rem;
-  margin-bottom: 0.2rem;
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
   cursor: pointer;
   border-radius: 5px;
-  padding-left: 0.2rem;
-  padding-right: 0.2rem;
+  padding: 0.2rem;
 }
 
 div.buttons h4[data-type=title] {

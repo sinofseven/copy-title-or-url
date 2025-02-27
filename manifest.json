@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Copy Title or Url",
   "version": "1.6",
   "description": "For copying title or url.",
@@ -11,8 +11,7 @@
     "clipboardWrite",
     "tabs"
   ],
-  "browser_action": {
-    "default_icon": "icon.png",
+  "action": {
     "default_title": "Copy Title or Url",
     "default_popup": "index.html"
   }
