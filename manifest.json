@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Copy Title or Url",
-  "version": "1.6",
+  "version": "1.7",
   "description": "For copying title or url.",
   "icons": {
     "64": "icon.png",
@@ -14,5 +14,10 @@
   "action": {
     "default_title": "Copy Title or Url",
     "default_popup": "index.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{2c250d4a-58ee-46ca-afb7-c740dbd74331}"
+    }
   }
 }
